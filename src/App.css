@@ -1,0 +1,93 @@
+.IMC {
+  text-align: center;
+  background-image: url('./background/Sans-titre-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.IMC h1 {
+  color: #6f0831;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: xxx-large;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.rendu {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto 15%;
+  padding-bottom: 20%;
+}
+.placementCalc {
+  display: flex;
+}
+.contenaire {
+  width: 50%;
+}
+.spaceNumber p {
+  text-align: right;
+  padding-right: 10px;
+}
+.spaceNumberBottom {
+  border-top: 1px solid black;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid black;
+}
+.spaceNumberBottom p {
+  text-align: right;
+  padding-right: 10px;
+}
+.scndPart {
+  padding: 3%;
+  width: 40%;
+}
+.scndPart button:first-child {
+  padding: 15px 50px;
+}
+.scndPart :nth-child(3) {
+  padding: 20px 50px;
+  font-size: larger;
+  font-weight: 600;
+}
+button {
+  border:none;
+  background-color: white;
+  color: #6f0831;
+  cursor: pointer;
+  margin: 10px auto;
+  font-size: x-large;
+}
+.button {
+  border: none;
+  font-size: xx-large;
+  color: #6f0831;
+  margin: 10px 20%;
+  padding: 0 30px;
+  width: 90px;
+  text-align: -webkit-center;
+}
+button :hover {
+  font-weight: 800;
+}
+.detailsCalc {
+  background-color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2% 20%;
+  color: teal;
+  padding: 10% 0;
+}
+.detailsCalc li {
+  font-size: 24px;
+  margin: auto;
+}
+.result {
+  background-color: white;
+  width: fit-content;
+  padding: 25px 50px;
+  margin: 2% auto;
+  color: teal;
+}
